@@ -93,8 +93,11 @@ input[type="password"]:focus {
     text-decoration: underline;
   }
   
-  footer{
+  .footer {
     margin-top: 40px;
+  }
+
+  .my-comment{
     color: #737373;
     text-align: center;
     font-size: 12px;

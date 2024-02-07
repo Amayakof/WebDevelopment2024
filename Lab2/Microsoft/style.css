@@ -1,0 +1,130 @@
+  body {
+    font-family: 'Segoe UI', Helvetica, sans-serif
+  }
+
+header {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+header .logo {
+  margin-left: 50px;
+  margin-right: 20px; 
+}
+
+header nav {
+  margin-right: auto; 
+}
+
+header .right-side {
+  margin-left: auto; 
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a.header-link {
+  text-decoration: none;
+  color: #333;
+}
+
+header nav ul li a.header-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: black;
+}
+
+header .right-side ul {
+  margin: 0;
+  padding: 0;
+}
+
+header .right-side ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header .right-side ul li a.header-link {
+  text-decoration: none;
+  color: #333;
+}
+
+header .right-side ul li a.header-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+  .highlight {
+    text-align: left;
+    padding: 100px 50px;
+    background-color: #0078d4;
+    color: #fff;
+    background-image: url('./highlightImage.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  
+  .highlight h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .highlight p {
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #276ea4;
+    color: #FFFF;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  
+  .btn:hover {
+    background-color: #3360a9;
+  }
+  
+  /* Product Cards Styles */
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .my-comment{
+    color: #737373;
+    text-align: center;
+    font-size: 12px;
+  }
+  
