@@ -1,5 +1,5 @@
-body {
-  font-family: 'Segoe UI', Helvetica, sans-serif;
+body{
+font-family: 'Segoe UI', Helvetica, sans-serif;
 }
 
 header {
@@ -60,7 +60,7 @@ header .right-side ul li a.header-link:hover {
 }
 
 .highlight h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 500;
 }
 
@@ -84,7 +84,7 @@ header .right-side ul li a.header-link:hover {
 }
 
 .highlightTwo h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 500;
 }
 
@@ -111,27 +111,22 @@ header .right-side ul li a.header-link:hover {
 .features{
   display: flex; 
   flex-wrap: nowrap;
-  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  overflow-x: auto;
   flex: 0 0 auto;
-  margin-right: 20px;
-}
-
-.features {
-  padding: 50px 0;
-  text-align: center;
+  padding: 70px 0px;
+  text-align: left;
 }
 
 .product-card {
   display: inline-block;
   width: 300px;
   padding: 20px;
-  margin: 20px;
+  margin-left:12px;
   text-align: left;
 }
 
 .product-card img {
   max-width: 100%;
-  border-radius: 5px;
 }
 
 .product-card a {
