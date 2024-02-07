@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+  
+  .container {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .logo{
+    display: block;
+    margin: 20px auto 40px;
+  }
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #3897f0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357ae8;
+  }
+  
+  .or-divider {
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 0.1em;
+  }
+  
+  .or-divider span {
+    background-color: white;
+    padding: 0 10px;
+    color: #999;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
