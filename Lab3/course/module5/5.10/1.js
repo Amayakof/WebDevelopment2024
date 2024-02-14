@@ -1,10 +1,10 @@
 let user = {
-    name: "John",
-    years: 30
+    name: "Johnny",
+    years: 9
 };
 
 let { name, years: age, isAdmin = false } = user;
 
-alert(name); // John
-alert(age); // 30
+alert(name); // Johnny
+alert(age); // 9
 alert(isAdmin); // false
