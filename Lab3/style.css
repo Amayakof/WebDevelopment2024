@@ -15,10 +15,12 @@ input[type="text"] {
     width: 70%;
     padding: 8px;
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 button {
     padding: 8px 16px;
+    margin-left: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -27,7 +29,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: pink;
 }
 
 ul {
