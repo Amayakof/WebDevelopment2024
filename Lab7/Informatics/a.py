@@ -35,5 +35,5 @@ import math
 # print(pos)
 
 # f. Последняя цифра
-# n = int(input())
-# print("Last digit:", n % 10)
+n = int(input())
+print("Last digit:", n % 10)
