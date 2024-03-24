@@ -1,4 +1,5 @@
-# Return True if the string "cat" and "dog"
+# Return True if the string
+# "cat" and "dog"
 # appear the same number of times
 # in the given string.
 

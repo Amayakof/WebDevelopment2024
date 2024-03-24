@@ -1,7 +1,6 @@
-# Return True if the given string contains an appearance of "xyz" 
+# Return True if the given string contains an appearance of "xyz"
 # where the xyz is not directly preceeded by a period (.). 
 # So "xxyz" counts but "x.xyz" does not.
-
 
 # xyz_there('abcxyz') → True
 # xyz_there('abc.xyz') → False
@@ -10,8 +9,13 @@
 def xyz_there(str):
     if str.startswith('xyz'):
         return True
-    
-    for i in range (len(str)):
+    for i in range(len(str)):
         if str[i-1] != '.' and str[i:i+3] == 'xyz':
-        return True
+            return True
+
     return False
+
+
+if __name__ == '__main__':
+    str = 'somexyz'
+    print(xyz_there(str))

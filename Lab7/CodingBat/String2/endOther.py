@@ -1,8 +1,8 @@
-# Given two strings, return True if either of the strings appears at the very end of the other string,
-# ignoring upper/lower case differences 
+# Given two strings,
+# return True if either of the strings appears at the very end of the other string,
+#ignoring upper/lower case differences
 # (in other words, the computation should not be "case sensitive").
 #  Note: s.lower() returns the lowercase version of a string.
-
 
 # end_other('Hiabc', 'abc') → True
 # end_other('AbC', 'HiaBc') → True
@@ -20,3 +20,9 @@ def end_other(a, b):
         return a.endswith(b)
     else:
         return b.endswith(a)
+
+
+if __name__ == '__main__':
+    a = 'ioiiiomio'
+    b = 'io'
+    print(end_other(a, b))
