@@ -9,8 +9,8 @@
 # make_bricks(3, 1, 9) → False
 # make_bricks(3, 2, 10) → True
 
-def make_bricks(small, big, goal):
-    if goal >= big*5:
+def make_bricks(small, big, goal,):
+    if goal >= big * 5:
         remainder = goal - (big * 5)
     else:
         remainder = goal % 5
@@ -19,3 +19,11 @@ def make_bricks(small, big, goal):
         return True
         
     return False
+
+
+if __name__ == '__main__':
+    small = 3
+    big = 1
+    goal = 8
+
+    print(make_bricks(small, big, goal))
