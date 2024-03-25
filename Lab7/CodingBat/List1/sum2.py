@@ -4,7 +4,6 @@
 # just sum up the elements that exist, 
 # returning 0 if the array is length 0.
 
-
 # sum2([1, 2, 3]) → 3
 # sum2([1, 1]) → 2
 # sum2([1, 1, 1, 1]) → 2
@@ -12,5 +11,13 @@
 def sum2(nums):
     if len(nums) < 2:
         return sum(nums)
+    elif len(nums) == 0:
+        return 0
     else:
         return nums[0]+nums[1]
+
+
+if __name__ == '__main__':
+    # nums = [1, 2, 7, 5]
+    nums = []
+    print(sum2(nums))
