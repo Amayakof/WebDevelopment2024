@@ -62,6 +62,7 @@ def category_products(request, id):
                 "description": p.description,
                 "count": p.count,
                 "is_active": p.is_active,
+                "category": p.name,
             }
             for p in products
         ]
